@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cotizador Escudo Seguros</string>
+    <string name="title_activity_referencia">ReferenciaActivity</string>
+    <string name="subtitle">Cotizador</string>
+</resources>
