@@ -5,6 +5,8 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="subtitleSize">20sp</dimen>
     <dimen name="heightCard">200dp</dimen>
-    <dimen name="cornerCard">4dp</dimen>
-    <dimen name="titleCard">25sp</dimen>
+    <dimen name="cornerCard">6dp</dimen>
+    <dimen name="titleSizeCard">25sp</dimen>
+    <dimen name="paddingCard">15sp</dimen>
+
 </resources>
