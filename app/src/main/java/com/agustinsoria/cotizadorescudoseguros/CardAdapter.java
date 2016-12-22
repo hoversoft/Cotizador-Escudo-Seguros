@@ -25,10 +25,10 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.CardViewHolder
 
         CardViewHolder(View view) {
             super(view);
-            cv = (CardView)view.findViewById(R.id.card);
-            title = (TextView)view.findViewById(R.id.textView);
-            types = (TextView)view.findViewById(R.id.textView2);
-            price = (TextView)view.findViewById(R.id.textView3);
+            cv = (CardView)view.findViewById(R.id.categoryCard);
+            title = (TextView)view.findViewById(R.id.titleCard);
+            types = (TextView)view.findViewById(R.id.itemsCard);
+            price = (TextView)view.findViewById(R.id.priceCard);
         }
     }
 
@@ -44,7 +44,7 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.CardViewHolder
 
     @Override
     public CardViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
-        View v = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.card, viewGroup, false);
+        View v = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.cardview_category, viewGroup, false);
         CardViewHolder cvh = new CardViewHolder(v);
         return cvh;
     }
