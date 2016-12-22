@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     cardview:cardCornerRadius="@dimen/cornerCard"
     android:layout_margin="4dp"
-    cardview:cardBackgroundColor="@color/background_card"
+    cardview:cardBackgroundColor="@color/colorPrimaryDark"
     >
 
     <android.support.v7.widget.LinearLayoutCompat
