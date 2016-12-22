@@ -5,6 +5,8 @@
     <string name="imgDescription">Logo Escudo Seguros</string>
     <string name="editHint">Ingrese el monto del vehiculo</string>
     <string name="buttonText">Cotizar</string>
+    <string name="respCivil">Responsabilidad Civil</string>
+    <string name="valueRc">$450</string>
     <string-array name="planets_array">
         <item>Mercury</item>
         <item>Venus</item>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/categoryCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    cardview:cardCornerRadius="@dimen/cornerCard"
+    android:layout_margin="4dp">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearLayoutCompat">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/titleCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/respCivil"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/titleCard"
+                tools:ignore="RtlHardcoded"
+                android:gravity="center"/>
+
+
+        </android.support.v7.widget.Toolbar>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lista"/>
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/valueCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/valueRc"
+                android:textSize="@dimen/titleCard"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                />
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+</android.support.v7.widget.CardView>
